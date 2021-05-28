@@ -4,7 +4,7 @@ class Cleanit < Formula
     sha256 "eaed995c7e8f3029ab2eced63a257a808f496efd0c13a3b84d2cf76dc9636465"
     license "MIT"
   
-    # depends_on "gh" 
+    depends_on "terminal-notifier" 
   
     def install
       bin.install "cleanit"
