@@ -1,13 +1,15 @@
 class Cleanit < Formula
     desc "Cleanit moves files older than 20 days (default) from a directory (default ~/Downloads) to another directory (default ~/.Trash)."
-    url "https://github.com/shinokada/cleanit/archive/refs/tags/v0.0.3.tar.gz"
-    sha256 "eaed995c7e8f3029ab2eced63a257a808f496efd0c13a3b84d2cf76dc9636465"
+    url "https://github.com/shinokada/cleanit/archive/refs/tags/v0.1.0.tar.gz"
+    sha256 "25cc32a20ecb55bcc34dbf97e94e699e42d5e166200ac9c035b54680cfafd625"
     license "MIT"
   
-    depends_on "terminal-notifier" 
+    depends_on "terminal-notifier"
   
     def install
       bin.install "cleanit"
+      bin.install "cleanitcron.txt"
+      bin.install "cleanitcron"
     end
   
     test do
