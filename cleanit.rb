@@ -8,8 +8,8 @@ class Cleanit < Formula
   
     def install
       bin.install "cleanit"
-      bin.install "cleanitcron.txt"
-      bin.install "cleanitcron"
+      bin.install "cleanit-launchd"
+      bin.install "local.cleanit.plist"
     end
   
     test do
