@@ -1,7 +1,7 @@
 class Cleanit < Formula
     desc "Cleanit moves files older than 20 days (default) from a directory (default ~/Downloads) to another directory (default ~/.Trash)."
-    url "https://github.com/shinokada/cleanit/archive/refs/tags/v0.2.1.tar.gz"
-    sha256 "2387d3a8a76333f9d08b1bc1e3289c07581cee67a8bec9db410e1555ed0663b4"
+    url "https://github.com/shinokada/cleanit/archive/refs/tags/v0.2.2.tar.gz"
+    sha256 "0e9e4dc4dd6b240ad0e19012b7baa767af96875a5740a0e0291f89541097626a"
     license "MIT"
   
     depends_on "terminal-notifier"
