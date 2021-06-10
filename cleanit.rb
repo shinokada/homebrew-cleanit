@@ -6,6 +6,7 @@ class Cleanit < Formula
   
     depends_on "terminal-notifier"
     depends_on "bash"
+    depends_on "coreutils"
   
     def install
       bin.install "cleanit"
